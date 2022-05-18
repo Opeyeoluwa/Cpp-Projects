@@ -18,8 +18,8 @@ int main() {
 	ofstream write_file;
 
 	/* Open input and output files, change path as necessary */
-	read_file.open("C:/Users/PC/Documents/PROGRAMMING/C++PROGRAMS/programs/EE_Lab_4/EE_Lab_4/input_file.txt");
-	write_file.open("C:/Users/PC/Documents/PROGRAMMING/C++PROGRAMS/programs/EE_Lab_4/EE_Lab_4/output_file.txt");
+	read_file.open("input_file.txt");
+	write_file.open("output_file.txt");
 
 	/* Read radius from file, compute area,
 	and write radius and area to file*/
